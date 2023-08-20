@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Andika', sans-serif;
+    src: url(../public/Andika-Regular.ttf);
+}
+.font{
+    font-family:'Andika', sans-serif;
+}
