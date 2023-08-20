@@ -7,11 +7,11 @@ const Brand = () => {
             <Container className='font text-center my-5'>
             <h1>Combo Brand</h1>
             <h4>Find The Perfect Pair Of Scents!</h4>
-            <Row className='my-5' xs={1} md={2}>
-                <Col>
+            <Row className='my-5 ' xs={1} md={2}>
+                <Col className='my-3'>
                 <img className='img-fluid' src="https://i.ibb.co/dQk3kXz/The-Secret-Story-Banners-Uncensored-685x360-Updated.png" alt="" />
                 </Col>
-                <Col>
+                <Col className='my-3'>
                 <img className='img-fluid' src="https://i.ibb.co/8PQWwGF/The-Secret-Story-Banners-Premium-685x360-Updated.png" alt="" />
                 </Col>
             </Row>
