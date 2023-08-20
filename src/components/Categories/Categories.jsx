@@ -19,9 +19,12 @@ const Categories = () => {
 
     return (
         <div>
-            <div className='d-flex justify-content-between'>
-            <h3>Our Best Seller</h3>
-            <ul className="nav nav-pills">
+            <div className="row row-cols-1 row-cols-md-2 g-4 my-4 font">
+             <div className="col">
+             <h3>Our Best Seller</h3>
+             </div>
+             <div className="col ">
+             <ul className="nav nav-pills d-flex justify-content-md-end">
                 <li className="nav-item">
                     <a
                         className={`nav-link ${selectedCategory === 'New Arrivals' ? 'active' : ''}`}
@@ -41,7 +44,11 @@ const Categories = () => {
                     </a>
                 </li>
             </ul>
+             </div>
             </div>
+           
+        
+          
            
             <div className='row row-cols-1 row-cols-md-4 g-4 my-4 font'>
             {categories
