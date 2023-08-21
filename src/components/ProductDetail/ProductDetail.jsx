@@ -61,7 +61,8 @@ const ProductDetail = () => {
                                         </select>
 
                                     </Card.Text>
-                                    <div class="btn-group rounded-0 w-25" role="group" aria-label="Basic outlined example">
+                                    
+                                    <div class="btn-group rounded-0 w-50" role="group" aria-label="Basic outlined example">
                                     <button onClick={handleMinusBtn} type="button" class="btn btn-outline-dark rounded-0 ">-</button>
                                         <input value={count}  type="number" class="form-control text-center" aria-label="readonly input example" readonly id="exampleFormControlInput1" />
                                         <button onClick={handlePlusBtn} type="button " class="btn btn-outline-dark rounded-0">+</button>
