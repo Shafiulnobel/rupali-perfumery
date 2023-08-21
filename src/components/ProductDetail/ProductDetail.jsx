@@ -62,9 +62,10 @@ const ProductDetail = () => {
 
                                     </Card.Text>
                                     <div class="btn-group rounded-0 w-25" role="group" aria-label="Basic outlined example">
-                                        <button onClick={handlePlusBtn} type="button " class="btn btn-outline-dark rounded-0">+</button>
+                                    <button onClick={handleMinusBtn} type="button" class="btn btn-outline-dark rounded-0 ">-</button>
                                         <input value={count}  type="number" class="form-control text-center" aria-label="readonly input example" readonly id="exampleFormControlInput1" />
-                                        <button onClick={handleMinusBtn} type="button" class="btn btn-outline-dark rounded-0 ">-</button>
+                                        <button onClick={handlePlusBtn} type="button " class="btn btn-outline-dark rounded-0">+</button>
+                                        
                                     </div>
                                     <button type="button" class="btn btn-warning rounded-0 p-2 ms-3">Add to card</button>
                                  
