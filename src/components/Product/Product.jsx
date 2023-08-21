@@ -2,6 +2,7 @@ import React from 'react';
 import './Product.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 const Product = ({product}) => {
     const{id,name,img,eight_ml,eight_ml_old,six_ml,six_ml_old,category}=product;
     return (
@@ -22,7 +23,7 @@ const Product = ({product}) => {
                                     </div>
                                 </div>
                             </div>
-                            <button type="button" className="btn btn-outline-warning w-100 my-3">See Details</button>
+                            <button type="button" className="btn btn-outline-warning w-100 my-3"><Link style={{textDecoration:'none',color:'black'}} to={`/product/${id}`}>Show details</Link></button>
                         </div>
                     </div>
                 </div>

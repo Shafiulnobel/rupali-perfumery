@@ -28,7 +28,7 @@ const Header = () => {
         </li>
         <li className="nav-item">
           <a className="nav-link " aria-current="page">
-          <ActiveLink to={`/`}>Premium Collection</ActiveLink>
+          <ActiveLink to={`/premium`}>Premium Collection</ActiveLink>
           </a>
         </li>
         <li className="nav-item">

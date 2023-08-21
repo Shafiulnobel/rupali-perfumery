@@ -12,6 +12,8 @@ import About from './components/About/About.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import Shared from './components/Shared/Shared.jsx';
 import Shop from './components/Shop/Shop.jsx';
+import ProductDetail from './components/ProductDetail/ProductDetail.jsx';
+import Premium from './components/Premium/Premium.jsx';
 const router=createBrowserRouter([
   {
     path:'/',
@@ -23,8 +25,16 @@ const router=createBrowserRouter([
         element:<Shared></Shared>
       },
       {
+        path:'/premium',
+        element:<Premium></Premium>
+      },
+      {
          path:'shop',
          element:<Shop></Shop>
+      },
+      {
+         path:'product/:productId',
+         element:<ProductDetail></ProductDetail>
       },
       {
          path:'about',

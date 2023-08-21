@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'Biryani', sans-serif;
+    src: url(../public/Biryani-SemiBold.ttf);
+}
+.font1{
+    font-family: 'Biryani', sans-serif;
+}
+
+
+@font-face {
     font-family: 'Andika', sans-serif;
     src: url(../public/Andika-Regular.ttf);
 }
